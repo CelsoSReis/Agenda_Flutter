@@ -1,6 +1,6 @@
-# agenda_pessoal
+# Delivery_Flutter
 
-App para agenda pública pessoal
+Aplicativo para Delivery
 
 ## Getting Started
 
