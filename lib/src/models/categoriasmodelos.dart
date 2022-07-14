@@ -1,7 +1,11 @@
-class Categorias {
-  final String nomeCategoria;
-  final String foto;
-  final int totalIngressos;
+class CategoriasFood {
+  final String? nomeCatProduto;
+  final String? imgCatProduto;
+  final int? totalProdutos;
 
-  Categorias({this.nomeCategoria, this.foto, this.totalIngressos});
+  CategoriasFood({
+    this.nomeCatProduto,
+    this.imgCatProduto,
+    this.totalProdutos,
+  });
 }

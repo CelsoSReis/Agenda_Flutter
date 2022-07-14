@@ -1,10 +1,9 @@
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/widgets.dart';
 import 'package:agenda_pessoal/src/models/categoriasmodelos.dart';
+import 'package:agenda_pessoal/src/dados/categoriasDados.dart';
 
-class areaCategoria extends StatelessWidget {
-  final List<categoriasmodelos> _Categorias = Categorias;
+class AreaCat extends StatelessWidget {
+  // ignore: non_constant_identifier_names
+  final List<CategoriasFood> _categorias = categorias;
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +11,7 @@ class areaCategoria extends StatelessWidget {
       height: 80.0,
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
-        itemCount: _Categorias.length,
+        itemCount: _categorias.length,
       ),
     );
   }

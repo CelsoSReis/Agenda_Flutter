@@ -12,7 +12,7 @@ class Cabecalho extends StatelessWidget {
         Column(
           children: <Widget>[
             Text("ReisWeb", style: styleTitulo),
-            Text("Agenda Oficial", style: styleSubtitulo)
+            Text("Delivery Food", style: styleSubtitulo)
           ],
         ),
         Icon(Icons.notifications),

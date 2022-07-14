@@ -5,7 +5,7 @@ class app extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Agenda",
+      title: "Delivery Food",
       theme: ThemeData(primaryColor: Colors.green),
       home: TelaInicial(),
     );
