@@ -1,4 +1,4 @@
-import 'package:agenda_pessoal/src/componentes/cabecalho.dart';
+import 'package:delivery_flutter/src/componentes/cabecalho.dart';
 import 'package:flutter/material.dart';
 
 class TelaInicial extends StatefulWidget {

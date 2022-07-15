@@ -1,5 +1,6 @@
-import 'package:agenda_pessoal/src/models/categoriasmodelos.dart';
-import 'package:agenda_pessoal/src/dados/categoriasDados.dart';
+import 'package:delivery_flutter/src/models/categoriasmodelos.dart';
+import 'package:delivery_flutter/src/dados/categoriasDados.dart';
+import 'package:flutter/material.dart';
 
 class AreaCat extends StatelessWidget {
   // ignore: non_constant_identifier_names

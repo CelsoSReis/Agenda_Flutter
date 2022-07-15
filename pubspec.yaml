@@ -1,5 +1,5 @@
-name: agenda_pessoal
-description: App para agenda pública pessoal
+name: delivery_flutter
+description: Applicativo para Delivery
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
